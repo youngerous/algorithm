@@ -36,4 +36,4 @@ testArr2 = [3, 8, 11, 15, 20, 29, 31, 48, 65, 73]
 print(sequentialSearchOrdered(testArr2, 15)) # 3
 print(sequentialSearchOrdered(testArr2,22)) # -1
 
-print('### Index Sequential Search ###')
+
