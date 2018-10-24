@@ -39,8 +39,8 @@ class quickSort:
 			return self.select(arr, start, point-1, target) 	# 왼쪽 그룹 탐색
 		elif target == nth:
 			return arr[nth]
-		else:
-			return self.select(arr, point+1, end, target - nth)
+		else: # 기준원소보다 큰 경우
+			return self.select(arr, point+1, end, target - nth)	# 오른쪽 그룹 탐색
 
 
  ## TEST ##
