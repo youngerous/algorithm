@@ -14,7 +14,7 @@ def binarySearch(arr, start, end, key):
 	else:
 		return -1
 
- ## TEST ##
+ ## TEST ## 
 testArr = [3, 8, 11, 15, 20, 29, 31, 48, 65, 73]
 print(binarySearch(testArr, 0, len(testArr)-1, 1)) # False
 print(binarySearch(testArr, 0, len(testArr)-1, 29)) # 5
