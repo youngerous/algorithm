@@ -26,14 +26,15 @@ def sequentialSearchOrdered(arr, key):	# in case of ordered data
 
 
 ## TEST ##
-print('### Sequential Search Unordered ###')
-testArr = [8, 31, 48, 73, 3, 65, 20, 29, 11, 15] 
-print(sequentialSearchUnordered(testArr, 8)) # 0
-print(sequentialSearchUnordered(testArr, 20)) # 6
+if __name__ == "__main__":
+	print('### Sequential Search Unordered ###')
+	testArr = [8, 31, 48, 73, 3, 65, 20, 29, 11, 15] 
+	print(sequentialSearchUnordered(testArr, 8)) # 0
+	print(sequentialSearchUnordered(testArr, 20)) # 6
 
-print('### Sequential Search Ordered ###')
-testArr2 = [3, 8, 11, 15, 20, 29, 31, 48, 65, 73]
-print(sequentialSearchOrdered(testArr2, 15)) # 3
-print(sequentialSearchOrdered(testArr2,22)) # -1
+	print('### Sequential Search Ordered ###')
+	testArr2 = [3, 8, 11, 15, 20, 29, 31, 48, 65, 73]
+	print(sequentialSearchOrdered(testArr2, 15)) # 3
+	print(sequentialSearchOrdered(testArr2,22)) # -1
 
 

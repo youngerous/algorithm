@@ -1,5 +1,3 @@
-# 2013311806 김탁영 - countingSort
-
 class countingSort:
 	def __init__(self, arr):
 		self.arr = arr
@@ -39,8 +37,9 @@ class countingSort:
 		return sortedArr
 
 ## TEST ##
-testArr = [1,0,4,6,5,5,3,7,4,0,1]
-counting = countingSort(testArr)
-print('RESULT = ' + str(counting.sort()))	
-# RESULT = [0, 0, 1, 1, 3, 4, 4, 5, 5, 6, 7]
+if __name__ == "__main__":
+	testArr = [1,0,4,6,5,5,3,7,4,0,1]
+	counting = countingSort(testArr)
+	print('RESULT = ' + str(counting.sort()))	
+	# RESULT = [0, 0, 1, 1, 3, 4, 4, 5, 5, 6, 7]
 

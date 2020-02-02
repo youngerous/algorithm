@@ -2,7 +2,6 @@
 	# 평균 수행 시간: theta(n)
 	# 최악의 경우: theta(n^2)
 
-
 # quickSort를 사용한다.
 class quickSort:
 	def __init__(self):
@@ -43,13 +42,14 @@ class quickSort:
 			return self.select(arr, point+1, end, target - nth)	# 오른쪽 그룹 탐색
 
 
- ## TEST ##
-testArr = [8, 31, 48, 73, 3, 65, 20, 29, 11, 15] 
-# 정렬 시 숫자 순위 = [3, 8, 11, 15, 20, 29, 31, 48, 65, 73]	
-linearSelect = quickSort()
+if __name__ == "__main__":
+	## TEST ##
+	testArr = [8, 31, 48, 73, 3, 65, 20, 29, 11, 15] 
+	# 정렬 시 숫자 순위 = [3, 8, 11, 15, 20, 29, 31, 48, 65, 73]	
+	linearSelect = quickSort()
 
-# n번째 작은 수 찾기
-print('RESULT = '+ str(linearSelect.select(testArr, 0, len(testArr)-1, 7))) # 31
-print('RESULT = '+ str(linearSelect.select(testArr, 0, len(testArr)-1, 2))) # 8
+	# n번째 작은 수 찾기
+	print('RESULT = '+ str(linearSelect.select(testArr, 0, len(testArr)-1, 7))) # 31
+	print('RESULT = '+ str(linearSelect.select(testArr, 0, len(testArr)-1, 2))) # 8
 
 

@@ -15,8 +15,9 @@ def binarySearch(arr, start, end, key):
 		return -1
 
  ## TEST ## 
-testArr = [3, 8, 11, 15, 20, 29, 31, 48, 65, 73]
-print(binarySearch(testArr, 0, len(testArr)-1, 1)) # False
-print(binarySearch(testArr, 0, len(testArr)-1, 29)) # 5
+if __name__ == "__main__":
+	testArr = [3, 8, 11, 15, 20, 29, 31, 48, 65, 73]
+	print(binarySearch(testArr, 0, len(testArr)-1, 1)) # False
+	print(binarySearch(testArr, 0, len(testArr)-1, 29)) # 5
 
 

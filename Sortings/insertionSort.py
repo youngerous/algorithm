@@ -1,5 +1,3 @@
-# 2013311806 김탁영 - insertionSort
-
 # Best case : O(n) -> 모두 정렬돼있을 때
 # Worst, Avg case : O(n^2)
 
@@ -24,9 +22,10 @@ class insertionSort:
 		return self.arr
 
 ## TEST ##
-testArr = [8, 31, 48, 73, 3, 65, 20, 29, 11, 15]
-insertion = insertionSort(testArr)
-print('RESULT = '+ str(insertion.sort()))
-# RESULT = [3, 8, 11, 15, 20, 29, 31, 48, 65, 73]
+if __name__ == "__main__":
+	testArr = [8, 31, 48, 73, 3, 65, 20, 29, 11, 15]
+	insertion = insertionSort(testArr)
+	print('RESULT = '+ str(insertion.sort()))
+	# RESULT = [3, 8, 11, 15, 20, 29, 31, 48, 65, 73]
 
 

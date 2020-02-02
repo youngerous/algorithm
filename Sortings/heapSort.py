@@ -1,5 +1,3 @@
-# 2013311806 김탁영 - heapSort
-
 class heapSort:
 	def __init__(self, arr):
 		self.arr = arr
@@ -41,7 +39,8 @@ class heapSort:
 
 
 ## TEST ##
-testArr = [8, 31, 48, 73, 3, 65, 20, 29, 11, 15]
-heap = heapSort(testArr)
-print('RESULT = ' + str(heap.sort()))	
-# RESULT = [73, 65, 48, 31, 29, 20, 15, 11, 8, 3]
+if __name__ == "__main__":
+	testArr = [8, 31, 48, 73, 3, 65, 20, 29, 11, 15]
+	heap = heapSort(testArr)
+	print('RESULT = ' + str(heap.sort()))	
+	# RESULT = [73, 65, 48, 31, 29, 20, 15, 11, 8, 3]

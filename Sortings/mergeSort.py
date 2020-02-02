@@ -49,7 +49,8 @@ class mergeSort:
 		return arr
 
  ## TEST ##
-testArr = [8, 31, 48, 73, 3, 65, 20, 29, 11, 15]
-mSort = mergeSort()
-print('RESULT = '+ str(mSort.sort(testArr)))
-# RESULT = [3, 8, 11, 15, 20, 29, 31, 48, 65, 73]
+if __name__ == "__main__":
+	testArr = [8, 31, 48, 73, 3, 65, 20, 29, 11, 15]
+	mSort = mergeSort()
+	print('RESULT = '+ str(mSort.sort(testArr)))
+	# RESULT = [3, 8, 11, 15, 20, 29, 31, 48, 65, 73]
