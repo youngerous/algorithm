@@ -1,4 +1,4 @@
-class quickSort:
+class QuickSort:
 	def __init__(self):
 		pass
 
@@ -24,7 +24,7 @@ class quickSort:
 ## TEST ##
 if __name__ == "__main__":
 	testArr = [8, 31, 48, 73, 3, 65, 20, 29, 11, 15]
-	quick = quickSort()
+	quick = QuickSort()
 	print('RESULT = '+ str(quick.sort(testArr,0,len(testArr)-1)))
 	# RESULT = [3, 8, 11, 15, 20, 29, 31, 48, 65, 73]		
 

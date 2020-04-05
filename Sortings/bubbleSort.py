@@ -1,6 +1,6 @@
 # Worst, Avg case : O(n^2)
 
-class bubbleSort:
+class BubbleSort:
 	def __init__(self, arr):
 		self.arr = arr
 
@@ -16,6 +16,6 @@ class bubbleSort:
 ## TEST ##
 if __name__ == "__main__":
     	testArr = [8, 31, 48, 73, 3, 65, 20, 29, 11, 15]
-	bubble = bubbleSort(testArr)
+	bubble = BubbleSort(testArr)
 	print('RESULT = '+ str(bubble.sort()))
 	# RESULT = [3, 8, 11, 15, 20, 29, 31, 48, 65, 73]

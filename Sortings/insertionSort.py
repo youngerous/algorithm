@@ -1,7 +1,7 @@
 # Best case : O(n) -> 모두 정렬돼있을 때
 # Worst, Avg case : O(n^2)
 
-class insertionSort:
+class InsertionSort:
 	def __init__(self,arr):
 		self.arr = arr
 
@@ -24,7 +24,7 @@ class insertionSort:
 ## TEST ##
 if __name__ == "__main__":
 	testArr = [8, 31, 48, 73, 3, 65, 20, 29, 11, 15]
-	insertion = insertionSort(testArr)
+	insertion = InsertionSort(testArr)
 	print('RESULT = '+ str(insertion.sort()))
 	# RESULT = [3, 8, 11, 15, 20, 29, 31, 48, 65, 73]
 

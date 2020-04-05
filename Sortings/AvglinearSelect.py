@@ -3,7 +3,7 @@
 	# 최악의 경우: theta(n^2)
 
 # quickSort를 사용한다.
-class quickSort:
+class QuickSort:
 	def __init__(self):
 		pass
 
@@ -46,7 +46,7 @@ if __name__ == "__main__":
 	## TEST ##
 	testArr = [8, 31, 48, 73, 3, 65, 20, 29, 11, 15] 
 	# 정렬 시 숫자 순위 = [3, 8, 11, 15, 20, 29, 31, 48, 65, 73]	
-	linearSelect = quickSort()
+	linearSelect = QuickSort()
 
 	# n번째 작은 수 찾기
 	print('RESULT = '+ str(linearSelect.select(testArr, 0, len(testArr)-1, 7))) # 31
