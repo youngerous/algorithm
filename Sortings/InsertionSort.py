@@ -8,6 +8,8 @@ class InsertionSort:
 		- But usually comparison is more expensive than swap.
 		- When using Binary Search, we can make comparison cost O(NlogN).
 		- However, inserting(swap) cost is still O(N^2).
+
+	This algorithm does in-place sort. It needs O(1) auxiliary space (swapping variable).
 	"""
 	def sort(self, arr):
 		length = len(arr)
@@ -27,5 +29,3 @@ if __name__ == "__main__":
 	insertion = InsertionSort()
 	print('RESULT = '+ str(insertion.sort(testArr)))
 	# RESULT = [3, 8, 11, 15, 20, 29, 31, 48, 65, 73]
-
-
