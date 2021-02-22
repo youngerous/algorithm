@@ -13,5 +13,13 @@ class Solution:
                 if idx != jdx:
                     return idx, nums.index(target - num)
 
+    def twoSum_faster(self, nums: List[int], target: int) -> List[int]:
+        mapping = {}
+        for idx, num in enumerate(nums):
+            mapping[num] = idx
+        for idx, num in enumerate(nums):
+            if target - num in mapping and idx != mapping[target - num]:
+                return mapping.index(num), mapping[target - num]
+
 
 # @lc code=end
